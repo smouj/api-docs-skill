@@ -1,48 +1,44 @@
 ---
 name: api-docs
 description: >
-  Generates API documentation. Activates when user mentions api, documentation, openapi, swagger, endpoints.
+  Generate API documentation from code, OpenAPI specs, or manual input.
+  Activates when user needs api docs generator functionality.
 version: "1.0.0"
-tags: [writing, openclaw, skill-agent]
+tags: [api, documentation, openapi, swagger, openclaw]
 metadata:
   author: "@smouj"
-  category: writing
-  expertise: master
+  category: coding
+  expertise: expert
   repo: https://github.com/smouj/api-docs-skill
   license: MIT
+triggers:
+  - api documentation
+  - OpenAPI
+  - Swagger
+  - docs
 ---
 
-# API Documentation - Master Expert
+# API Docs Generator
 
-You are a master expert in API Documentation.
+You are an expert in api docs generator.
 
-## 🎯 When to Use This Skill
-- Use when user mentions: Generates API documentation
-- Ideal situations: writing tasks, optimization
-- DO NOT use for: unrelated tasks
+## When to Use This Skill
+- **Use when:** User needs api docs generator functionality
+- **Use when:** Related to coding tasks
+- **NOT for:** Unrelated tasks
 
-## 📋 Mandatory Work Process
+## Work Process
+1. Discovery - Understand requirements
+2. Analysis - Plan approach
+3. Action - Execute with best practices
+4. Delivery - Verify and document
 
-1. **Step 1 - Initial Analysis**
-   - Define objective and scope
+## Golden Rules
+1. Follow coding best practices
+2. Prioritize security
+3. Document all changes
+4. Test thoroughly
+5. Maintain idempotency
 
-2. **Step 2 - Planning**
-   - Design minimal plan
+## Output Format
 
-3. **Step 3 - Execution**
-   - Execute incrementally
-
-4. **Step 4 - Validation**
-   - Verify results
-
-## ⚡ Golden Rules
-1. Always verify before executing
-2. Never expose secrets
-3. Document rollback
-
-## 📤 Output Format
-```markdown
-## Summary
-- Objective: [what]
-- Result: [obtained]
-```
